@@ -1,0 +1,114 @@
+body{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.baronslogo{
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+
+.contentbox{
+    color: #222222;
+    background: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid #222222;
+    border-radius: 20px;
+}
+
+.spielerbild{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100vw;
+}
+
+.alignbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.zeiten{
+    display: flex;
+}
+
+.followbutton{
+    margin-top: 10px;
+    color: #0f1419;
+    border: 2px solid #cfd9de;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    background: white;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.navibox{
+    background-color: maroon;
+    padding: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.navibutton{
+    font-size: larger;
+}
+
+.navibutton:link{
+    color: white;
+    text-decoration: none;
+}
+
+.navibutton:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.navibutton:hover{
+    color: green;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.socialbutton{
+    color: maroon;
+    text-decoration: none;
+}
+
+.sponsorenbox{
+    display: flex;
+    justify-content: center;
+}
+
+.sponsorlogo{
+    max-width: 180px;
+}
+
+.locationbutton{
+    color: maroon
+}
+
