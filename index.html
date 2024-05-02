@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=0.8" charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=0.8">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="iconlogo.jpeg" type="image/x-icon">
+    <script src="script.js"></script>
     <title>Memmelsdorf Barons</title>
 </head>
 <body>
@@ -32,28 +34,19 @@
     </div>
 
     <div class="contentbox">
-        <h2>Nächster Termin</h2>
-        <h4>Unser Hallenturnier</h4>
+        <h2>Unsere nächsten Spiele</h2>
+        <h4>1. Mannschaft</h4>
         <p>
-            Am 27.01.2024 ist es soweit: Zum 6. Mal steht die bamberger
-            Auflage des Söllner Indoor Cups an. 
-            Freut euch auf einen ganzen Tag voller Indoor Baseball Action.
-            <br>
-            Das erste Spiel startet um 10 Uhr und das Finale ist erfahrungsgemäß
-            ungefähr gegen 17 Uhr vorbei.
-            <br>
-            Der Eintritt ist frei und für das leibliche Wohl wird natürlich gesorgt.
-            <br>
-            Wir freuen uns auf euren Besuch!
-            <br>
-            <br>
-            <a href="https://maps.app.goo.gl/PvCMozhuK9AKdqob9" class="locationbutton" target="_blank">
-                Hier wird gespielt
-            </a>
-            <br>
-            <br>
-            Der Spielplan folgt noch. Sobald er final steht, findet ihr ihn hier
-            und unter <a href="downloads.html" class="locationbutton">Downloads</a>.
+            Am <span id="gameDayLL"></span> um <span id="gameTimeLL"></span> Uhr spielen wir 
+            <span id="gameLocationLL"></span> gegen die Mannschaft der
+            <span id="enemyTeamLL"></span>.
+            
+        </p>
+        <h4>2. Mannschaft</h4>
+        <p>
+            Am <span id="gameDayLK"></span> um <span id="gameTimeLK"></span> Uhr spielen wir 
+            <span id="gameLocationLK"></span> gegen die Mannschaft der
+            <span id="enemyTeamLK"></span>.
         </p>
 
     </div>
@@ -134,10 +127,11 @@
             <a href="https://www.baseballminister.de" target="_blank">
                 <img src="bbminister2.png" class="sponsorlogo">
             </a>
+            <a href="https://fielders-choice.de" target="_blank">
+                <img src="FC_Teambuyer.png">
+            </a>
         </div>
     </div>
-
-
 
 </body>
 </html>
